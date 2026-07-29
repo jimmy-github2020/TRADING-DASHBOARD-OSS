@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a focused improvement.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or maintainer problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: provider
+    attributes:
+      label: Provider and data implications
+      description: List any new endpoint, credential, license, retention, or attribution requirement.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This proposal does not require committing real credentials or user data.
+          required: true

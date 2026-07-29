@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs
+.next/
+dist/
+build/
+coverage/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Local data volumes
+data/postgres/*
+data/redis/*
+!data/postgres/.gitkeep
+!data/redis/.gitkeep
+
+# Logs
+*.log
+
+# Local recovery and database artifacts
+backups/
+*.dump
+*.backup
+*.sql.gz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json

@@ -1,0 +1,20 @@
+TRADING-DASHBOARD
+Copyright 2026 TRADING-DASHBOARD contributors
+
+This distribution includes software under multiple permissive and weak-copyleft
+licenses. Preserve the license notices shipped with Python, npm, and container
+dependencies. In particular, binary distributions may include LGPL components
+such as psycopg, frozendict, and libvips.
+
+Taiwan listed-company metadata:
+Source: Taiwan Stock Exchange / Government Open Data Platform
+Dataset: https://data.gov.tw/dataset/18419
+License: Open Government Data License, Version 1.0
+
+Taiwan OTC-company metadata:
+Source: Taipei Exchange / Government Open Data Platform
+Dataset: https://data.gov.tw/dataset/25036
+License: Open Government Data License, Version 1.0
+
+No third-party market data, news content, exchange directory snapshot, or user
+portfolio data is licensed under the project's Apache-2.0 license.

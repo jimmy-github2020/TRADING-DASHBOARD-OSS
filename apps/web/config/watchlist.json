@@ -1,0 +1,104 @@
+{
+  "tickerBar": {
+    "indices": [
+      { "label": "道瓊", "symbol": "^DJI" },
+      { "label": "S&P 500", "symbol": "^GSPC" },
+      { "label": "NASDAQ", "symbol": "^IXIC" },
+      { "label": "費城半導體", "symbol": "^SOX" },
+      { "label": "日經 225", "symbol": "^N225" },
+      { "label": "韓國 KOSPI", "symbol": "^KS11" },
+      { "label": "台灣加權", "symbol": "^TWII" },
+      { "label": "櫃買指數", "symbol": "^TWOII" }
+    ],
+    "commodities": [
+      { "label": "布蘭特油", "symbol": "BZ=F" },
+      { "label": "黃金", "symbol": "GC=F" },
+      { "label": "USD/TWD", "symbol": "TWD=X" },
+      { "label": "VIX", "symbol": "^VIX" },
+      { "label": "BTC", "symbol": "BTCUSDT" },
+      { "label": "ETH", "symbol": "ETHUSDT" }
+    ]
+  },
+  "groups": [
+    {
+      "id": "tw-etf",
+      "label": "國內 ETF",
+      "region": "tw",
+      "items": [
+        { "symbol": "00403A.TW", "label": "主動統一升級50" },
+        { "symbol": "0050.TW", "label": "元大台灣50" },
+        { "symbol": "0052.TW", "label": "富邦科技" },
+        { "symbol": "0056.TW", "label": "元大高股息" },
+        { "symbol": "006208.TW", "label": "富邦台50" },
+        { "symbol": "00878.TW", "label": "國泰永續高股息" },
+        { "symbol": "00881.TW", "label": "國泰台灣科技龍頭" },
+        { "symbol": "00919.TW", "label": "群益台灣精選高息" },
+        { "symbol": "00929.TW", "label": "復華台灣科技優息" },
+        { "symbol": "009816.TW", "label": "凱基台灣TOP50" },
+        { "symbol": "00981A.TW", "label": "主動統一台股增長" },
+        { "symbol": "00991A.TW", "label": "主動復華未來50" }
+      ]
+    },
+    {
+      "id": "tw-stocks",
+      "label": "國內個股",
+      "region": "tw",
+      "items": [
+        { "symbol": "2002.TW", "label": "中鋼" },
+        { "symbol": "2103.TW", "label": "台橡" },
+        { "symbol": "2301.TW", "label": "光寶科" },
+        { "symbol": "2308.TW", "label": "台達電" },
+        { "symbol": "2317.TW", "label": "鴻海" },
+        { "symbol": "2327.TW", "label": "國巨" },
+        { "symbol": "2330.TW", "label": "台積電" },
+        { "symbol": "2337.TW", "label": "旺宏" },
+        { "symbol": "2454.TW", "label": "聯發科" },
+        { "symbol": "2481.TW", "label": "強茂" },
+        { "symbol": "2492.TW", "label": "華新科" },
+        { "symbol": "2618.TW", "label": "長榮航" },
+        { "symbol": "3026.TW", "label": "禾伸堂" },
+        { "symbol": "3257.TW", "label": "虹冠電" },
+        { "symbol": "3357.TW", "label": "臺慶科" },
+        { "symbol": "3481.TW", "label": "群創" },
+        { "symbol": "3491.TW", "label": "昇達科" },
+        { "symbol": "5289.TW", "label": "宜鼎" },
+        { "symbol": "6442.TW", "label": "光聖" },
+        { "symbol": "6770.TW", "label": "力積電" },
+        { "symbol": "6805.TW", "label": "富世達" },
+        { "symbol": "6919.TW", "label": "康霈" },
+        { "symbol": "8261.TW", "label": "富鼎" },
+        { "symbol": "8299.TW", "label": "群聯" }
+      ]
+    },
+    {
+      "id": "us-etf",
+      "label": "國外 ETF",
+      "region": "us",
+      "items": [
+        { "symbol": "DRAM", "label": "DRAM ETF" },
+        { "symbol": "RAM", "label": "RAM ETF" },
+        { "symbol": "MUU", "label": "MUU" }
+      ]
+    },
+    {
+      "id": "us-stocks",
+      "label": "國外個股",
+      "region": "us",
+      "items": [
+        { "symbol": "MU", "label": "美光" },
+        { "symbol": "NOK", "label": "Nokia" },
+        { "symbol": "NVDA", "label": "輝達" },
+        { "symbol": "VSH", "label": "Vishay" },
+        { "symbol": "TSM", "label": "台積電 ADR" },
+        { "symbol": "UMC", "label": "聯電 ADR" },
+        { "symbol": "AVGO", "label": "博通" },
+        { "symbol": "ON", "label": "ON 半導體" },
+        { "symbol": "RKLB", "label": "Rocket Lab" },
+        { "symbol": "ASTS", "label": "AST Space" },
+        { "symbol": "MRVL", "label": "Marvell" },
+        { "symbol": "BE", "label": "Bloom Energy" },
+        { "symbol": "SPCX", "label": "Space Explr" }
+      ]
+    }
+  ]
+}
