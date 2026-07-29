@@ -40,8 +40,8 @@ Requirements:
 - Git
 
 ```bash
-git clone https://github.com/jimmy-github2020/TRADING-DASHBOARD.git
-cd TRADING-DASHBOARD
+git clone https://github.com/jimmy-github2020/TRADING-DASHBOARD-OSS.git
+cd TRADING-DASHBOARD-OSS
 cp .env.example .env
 docker compose config --quiet
 docker compose up -d
@@ -50,8 +50,8 @@ docker compose up -d
 PowerShell:
 
 ```powershell
-git clone https://github.com/jimmy-github2020/TRADING-DASHBOARD.git
-Set-Location TRADING-DASHBOARD
+git clone https://github.com/jimmy-github2020/TRADING-DASHBOARD-OSS.git
+Set-Location TRADING-DASHBOARD-OSS
 Copy-Item .env.example .env
 docker compose config --quiet
 docker compose up -d

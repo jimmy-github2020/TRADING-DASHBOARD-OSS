@@ -14,8 +14,8 @@
 1. Clone 並確認 workspace：
 
 ```powershell
-git clone https://github.com/jimmy-github2020/TRADING-DASHBOARD.git
-Set-Location TRADING-DASHBOARD
+git clone https://github.com/jimmy-github2020/TRADING-DASHBOARD-OSS.git
+Set-Location TRADING-DASHBOARD-OSS
 git rev-parse --show-toplevel
 ```
 
