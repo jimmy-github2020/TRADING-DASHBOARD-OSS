@@ -13,7 +13,6 @@ from services.candles_fetcher import (
 
 router = APIRouter(prefix="/api/v1", tags=["market"])
 
-
 @router.get("/market/candles")
 async def get_market_candles(
     symbol: Annotated[str, Query(min_length=1)] = "^TWII",
