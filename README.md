@@ -57,6 +57,8 @@ docker compose config --quiet
 docker compose up -d
 ```
 
+Compose resource names are derived from the project directory. Keep this public edition in its own directory, or use `docker compose -p <project-name>` when an explicit project name is needed.
+
 Open:
 
 - Web: http://localhost:3100

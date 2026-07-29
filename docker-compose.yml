@@ -1,9 +1,6 @@
-name: trading-dashboard
-
 services:
   postgres:
     image: timescale/timescaledb:latest-pg16
-    container_name: trading_dashboard_postgres
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-trading}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-trading_password}
@@ -23,7 +20,6 @@ services:
 
   redis:
     image: redis:7-alpine
-    container_name: trading_dashboard_redis
     ports:
       - "6380:6379"
     volumes:
@@ -39,7 +35,6 @@ services:
   api:
     build:
       context: ./apps/api
-    container_name: trading_dashboard_api
     environment:
       DATABASE_URL: ${DATABASE_URL:-postgresql://trading:trading_password@postgres:5432/trading_dashboard}
       REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
@@ -80,7 +75,6 @@ services:
   worker:
     build:
       context: ./apps/worker
-    container_name: trading_dashboard_worker
     environment:
       DATABASE_URL: ${DATABASE_URL:-postgresql://trading:trading_password@postgres:5432/trading_dashboard}
       REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
@@ -107,7 +101,6 @@ services:
   web:
     build:
       context: ./apps/web
-    container_name: trading_dashboard_web
     environment:
       NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8011}
     ports:
@@ -125,10 +118,7 @@ services:
 
 networks:
   trading_dashboard_net:
-    name: trading_dashboard_net
 
 volumes:
   trading_dashboard_postgres_data:
-    name: trading_dashboard_postgres_data
   trading_dashboard_redis_data:
-    name: trading_dashboard_redis_data

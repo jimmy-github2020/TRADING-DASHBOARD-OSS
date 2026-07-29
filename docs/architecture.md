@@ -46,14 +46,7 @@ TRADING-DASHBOARD
 
 ## Docker 隔離策略
 
-本專案使用獨立 Docker Compose project、network、volume 與 container name：
-
-- `trading-dashboard`
-- `trading_dashboard_net`
-- `trading_dashboard_postgres_data`
-- `trading_dashboard_redis_data`
-
-這些命名避免與 HYMOVER 或舊 workspace 衝突。
+Docker Compose 的 container、network 與 volume 會使用 Compose project 前綴。預設 project 由目前目錄名稱推導；請將公開版放在獨立目錄執行，或在需要明確隔離時加上 `-p <project-name>`。
 
 ## 資料層
 
