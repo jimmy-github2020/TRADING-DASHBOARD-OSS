@@ -1,4 +1,4 @@
-apscheduler==3.11.0
+apscheduler==3.11.3
 pandas==2.3.3
 psycopg[binary]==3.2.13
 redis==5.2.1
