@@ -1,6 +1,6 @@
 apscheduler==3.11.3
 pandas==2.3.3
 psycopg[binary]==3.3.4
-redis==5.2.1
+redis==8.0.1
 requests==2.34.2
 yfinance==0.2.66
