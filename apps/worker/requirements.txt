@@ -1,5 +1,5 @@
 apscheduler==3.11.3
-pandas==2.3.3
+pandas==3.0.5
 psycopg[binary]==3.3.4
 redis==5.2.1
 requests==2.34.2
