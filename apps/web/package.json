@@ -10,17 +10,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.62.8",
-    "lightweight-charts": "^5.0.0",
-    "lucide-react": "^0.468.0",
-    "next": "16.2.12",
+    "@tanstack/react-query": "^5.102.0",
+    "lightweight-charts": "^5.2.1",
+    "lucide-react": "^0.577.0",
+    "next": "16.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.0"
   },
